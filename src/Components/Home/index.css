@@ -1,0 +1,115 @@
+.form-Container {
+  background-color: #dbd5d0;
+  padding: 25px;
+  width: 30vw;
+  height: 50vh;
+}
+.label {
+  color: black;
+
+  font-weight: 500;
+  text-align: start;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+.name {
+  height: 30px;
+  padding-left: 5px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.label-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+  padding-top: 4px;
+}
+.heading {
+  font-size: 20px;
+}
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px;
+}
+.bg-container {
+  background-color: #eeeae7;
+  padding: 20px;
+  display: flex;
+}
+
+.lists {
+  width: 100%;
+  margin-left: 10px;
+  height: 100%;
+}
+
+/* Add this styling to your existing CSS file */
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+tr {
+  background-color: none;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #e92626;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+hr {
+  border: 1px solid #dcdcdc;
+}
+.bn {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.tr-d {
+  background-color: #f4f3f1;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.participents-container {
+  background-color: #ffffff;
+  width: 65vw;
+  height: 95vh;
+  margin-left: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tables {
+  margin: 18px;
+}
